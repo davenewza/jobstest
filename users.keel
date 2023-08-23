@@ -47,3 +47,8 @@ job ImportEmails {
 
     @permission(expression: true)
 }
+
+api Web {
+    Users
+    Identity
+}
