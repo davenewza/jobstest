@@ -1,5 +1,6 @@
 import { ImportEmails, models } from "@teamkeel/sdk";
 import { error } from "console";
+
 export default ImportEmails(async (ctx, inputs) => {
   // expects inputs to be a json string which is an array of emails
   const data: string[] = JSON.parse(inputs.data);
