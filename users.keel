@@ -49,6 +49,8 @@ job ImportEmails {
 }
 
 api Web {
-    Users
-    Identity
+    models {
+        Users
+        Identity
+    }
 }
