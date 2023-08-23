@@ -19,7 +19,7 @@ export default ImportEmails(async (ctx, inputs) => {
       });
       console.log("added ", email);
     } else {
-      console.log(email, " already exists, skipping");
+      console.log(email, " already exists - skipping");
     }
   });
 
