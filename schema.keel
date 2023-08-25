@@ -13,7 +13,7 @@ model Users {
         active Boolean @default(false)
     }
 
-    operations {
+    actions {
         create addUser() with (name, email, source?) {
             @permission(expression: true)
             @set(users.registeredAt = ctx.now)
