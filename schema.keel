@@ -17,9 +17,7 @@ model Users {
         create addUser() with (name, email, source?) {
             @permission(expression: true)
             @set(users.registeredAt = ctx.now)
-        }
-
-        
+        }   
         // TODO remove this once check() works
         get checkEmail(email) {
             @permission(expression: true)
