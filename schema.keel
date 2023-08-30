@@ -51,7 +51,7 @@ job ImportEmails {
 }
 
 job MyJob {
-    @schedule("0 0 8 * * *")
+    @schedule("0 0 8 * *")
 }
 
 api Web {
