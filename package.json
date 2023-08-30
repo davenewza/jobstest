@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/davenewza/jobstest#readme",
   "dependencies": {
-    "@teamkeel/functions-runtime": "^0.365.15-32",
-    "@teamkeel/testing-runtime": "^0.365.15-32",
+    "@teamkeel/functions-runtime": "0.365.15-32",
+    "@teamkeel/testing-runtime": "0.365.15-32",
     "@types/node": "^18.11.18",
     "kysely": "^0.23.4",
     "node-fetch": "^3.3.0",
