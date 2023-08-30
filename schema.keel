@@ -50,6 +50,10 @@ job ImportEmails {
     @permission(expression: true)
 }
 
+job MyJob {
+    @schedule("0 0 8 * * ? *")
+}
+
 api Web {
     models {
         Users
