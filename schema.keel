@@ -13,6 +13,7 @@ model Users {
         active Boolean @default(false)
     }
 
+    
     actions {
         create addUser() with (name, email, source?) {
             @permission(expression: true)
